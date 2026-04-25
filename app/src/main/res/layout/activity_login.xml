@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/bg_dark">
+
+    <FrameLayout
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="16dp">
+        <View
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/circle_avatar_bg"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NanoTrust"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offline payments, anywhere"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:layout_marginBottom="6dp"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/input_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:hint="rahul_k"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:layout_marginBottom="6dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/input_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:hint="••••••••"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvLoginError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5252"
+        android:textSize="12sp"
+        android:layout_marginBottom="24dp"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Login"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:background="@drawable/btn_primary"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Register"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:background="@drawable/btn_outline"/>
+
+</LinearLayout>
