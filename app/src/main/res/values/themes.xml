@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NanoTrustWallet" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="android:statusBarColor">@color/accent_blue</item>
+        <item name="android:navigationBarColor">@color/bg_white</item>
+        <item name="colorPrimary">@color/accent_blue</item>
+    </style>
+</resources>

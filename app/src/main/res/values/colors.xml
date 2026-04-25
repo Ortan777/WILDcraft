@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_light">#F5F7FA</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="accent_blue">#2563EB</color>
+    <color name="accent_blue_dark">#1D4ED8</color>
+    <color name="accent_green">#16A34A</color>
+    <color name="accent_orange">#F59E0B</color>
+    <color name="accent_purple">#7C3AED</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="icon_blue_bg">#EFF6FF</color>
+    <color name="icon_green_bg">#F0FDF4</color>
+    <color name="icon_orange_bg">#FFFBEB</color>
+    <color name="icon_purple_bg">#F5F3FF</color>
+    <color name="divider">#F3F4F6</color>
+    <color name="card_border">#E5E7EB</color>
+    <color name="red_bg">#FEF2F2</color>
+    <color name="red_text">#DC2626</color>
+    <color name="green_text">#16A34A</color>
+    <color name="blue_text">#2563EB</color>
+    <color name="badge_blue_bg">#EFF6FF</color>
+    <color name="input_bg">#FFFFFF</color>
+    <color name="input_border">#E5E7EB</color>
+    <color name="bg_dark">#1E3A5F</color>
+</resources>
