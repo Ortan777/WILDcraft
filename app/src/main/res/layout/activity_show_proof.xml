@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#2563EB"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvProofLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment QR"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProofSubLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#BFDBFE"
+                android:textSize="13sp"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <!-- QR Code Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/card_white_rounded"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/ivProofQr"
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Payment QR Code" />
+
+            <TextView
+                android:id="@+id/tvProofUserId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your ID: ..."
+                android:textColor="#6B7280"
+                android:textSize="13sp"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+
+        <!-- Action Button (Cancel Payment / Scan Proof) -->
+        <Button
+            android:id="@+id/btnScanPayerProof"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Cancel Payment"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="#DC2626"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Done / Close Button -->
+        <Button
+            android:id="@+id/btnCloseProof"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Done"
+            android:textColor="#2563EB"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="#EFF6FF" />
+
+    </LinearLayout>
+</ScrollView>
