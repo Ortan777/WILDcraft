@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter UPI PIN to confirm"
+        android:textColor="#6B7280"
+        android:textSize="13sp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etPin"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="••••"
+        android:inputType="numberPassword"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="@drawable/input_field"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btnPinCancel"
+            android:layout_width="0dp" android:layout_height="44dp"
+            android:layout_weight="1" android:text="Cancel"
+            android:textColor="#6B7280" android:background="@null"
+            android:layout_marginEnd="8dp"/>
+        <Button android:id="@+id/btnPinConfirm"
+            android:layout_width="0dp" android:layout_height="44dp"
+            android:layout_weight="1" android:text="Confirm"
+            android:textColor="#FFFFFF" android:background="@drawable/btn_blue"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Up Wallet"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvTopUpBankName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="24dp"
+            android:text="State Bank of India"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_dark"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Offline wallet balance"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp"/>
+
+            <TextView
+                android:id="@+id/tvMainBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹0"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount (₹)"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etTopUpAmount"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/input_bg"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:hint="1000"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPI PIN"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etUpiPin"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/input_bg"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:hint="••••"
+            android:textColor="@color/text_primary"
+            android:inputType="numberPassword"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvAfterTopUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:layout_marginBottom="24dp"
+            android:text="After top-up, offline wallet: ₹0"/>
+
+        <TextView
+            android:id="@+id/tvTopUpStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btnConfirmTopUp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Top Up"
+            android:textColor="@color/text_primary"
+            android:background="@drawable/btn_primary"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnBackFromTopUp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Back"
+            android:textColor="@color/text_secondary"
+            android:background="@drawable/btn_outline"/>
+
+    </LinearLayout>
+</ScrollView>
